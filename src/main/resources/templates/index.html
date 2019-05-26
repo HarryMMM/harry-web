@@ -8,8 +8,15 @@
         <body>
             <h1>这里有两张图片</h1>
             <!--资源跟路径为static,引用路径时不需要再写static-->
-            <img alt="svg" src="image/svg/heart.svg"/>
-            <img alt="jpg" src="image/svg/k8s.jpg"/>
+            <!--<img alt="svg" src="image/svg/heart.svg"/>-->
+            <!--<img alt="jpg" src="image/svg/k8s.jpg"/>-->
+            <a href="file/download?fileName=python3.zip">下载</a>
+            <form action="file/upload"  method="post" enctype="multipart/form-data">
+                <p>
+                    文件：<input type="file" name="file">
+                </p>
+                <input type="submit" value="上传">
+            </form>
         </body>
     </body>
 </html>

@@ -21,7 +21,7 @@ public class TaskLimitContorller {
     private TaskLimitService taskLimitService;
 
     @GetMapping("saveAll")
-    public ResponseDTO saveAll(HttpServletResponse response, String session) {
-         return taskLimitService.exec(response, session);
+    public void saveAll(HttpServletResponse response, String session) {
+          taskLimitService.exec(response, session);
     }
 }

@@ -30,7 +30,7 @@ public class SaveFileTask implements Callable<Boolean> {
     @Override
     public Boolean call() throws Exception {
         try {
-            TimeUnit.SECONDS.sleep(2);
+            TimeUnit.SECONDS.sleep(10);
             String fileName = session + "_" + UUID.randomUUID() + ".txt";
             String filePath = "F:" + File.separator + "test" + File.separator;
 //            String downloadfilePath = filePath + File.separator + "download";

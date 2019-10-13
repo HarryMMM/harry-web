@@ -1,10 +1,10 @@
-package cn.harryai.harryweb.Config;
-
-import com.alibaba.fastjson.JSON;
+package cn.harryai.harryweb.config;
 
 import javax.websocket.EncodeException;
 import javax.websocket.Encoder;
 import javax.websocket.EndpointConfig;
+
+import com.alibaba.fastjson.JSON;
 
 /**
  * @author Harry
